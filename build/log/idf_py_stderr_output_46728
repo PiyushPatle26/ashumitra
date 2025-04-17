@@ -1,0 +1,9 @@
+CMake Error at /home/lord-daniel/esp/esp-idf/tools/cmake/build.cmake:266 (message):
+  Failed to resolve component 'cJSON'.
+Call Stack (most recent call first):
+  /home/lord-daniel/esp/esp-idf/tools/cmake/build.cmake:302 (__build_resolve_and_add_req)
+  /home/lord-daniel/esp/esp-idf/tools/cmake/build.cmake:603 (__build_expand_requirements)
+  /home/lord-daniel/esp/esp-idf/tools/cmake/project.cmake:604 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

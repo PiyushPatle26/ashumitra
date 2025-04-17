@@ -1,0 +1,223 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0;33m--- 0x40081a6e: panic_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/panic.c:481
+--- 0x400896a1: esp_system_abort at /home/lord-daniel/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+--- 0x40090871: __assert_func at /home/lord-daniel/esp/esp-idf/components/newlib/assert.c:81
+--- 0x4008c86d: xEventGroupClearBits at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c:495 (discriminator 1)
+--- 0x400d6d1d: app_main at /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main/main.c:49 (discriminator 15)
+--- 0x40162b97: main_task at /home/lord-daniel/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+--- 0x4008be8d: vPortTaskWrapper at /home/lord-daniel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400813cc: call_start_cpu1 at /home/lord-daniel/esp/esp-idf/components/esp_system/port/cpu_start.c:160
+[0m
+[0m

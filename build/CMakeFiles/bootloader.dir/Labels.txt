@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/CMakeFiles/bootloader
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/CMakeFiles/bootloader.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/CMakeFiles/bootloader-complete.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

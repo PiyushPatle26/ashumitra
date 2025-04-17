@@ -1,0 +1,57 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/lord-daniel/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/lord-daniel/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/lord-daniel/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/lord-daniel/Code/ESP_IDF/ashumitra_own/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/lord-daniel/.espressif/python_env/idf5.1_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "ashumitra_own" version: 1
+-- Adding linker script /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/lord-daniel/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cJSON cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/lord-daniel/esp/esp-idf/components/app_trace /home/lord-daniel/esp/esp-idf/components/app_update /home/lord-daniel/esp/esp-idf/components/bootloader /home/lord-daniel/esp/esp-idf/components/bootloader_support /home/lord-daniel/esp/esp-idf/components/bt /home/lord-daniel/Code/ESP_IDF/ashumitra_own/components/cJSON /home/lord-daniel/esp/esp-idf/components/cmock /home/lord-daniel/esp/esp-idf/components/console /home/lord-daniel/esp/esp-idf/components/cxx /home/lord-daniel/esp/esp-idf/components/driver /home/lord-daniel/esp/esp-idf/components/efuse /home/lord-daniel/esp/esp-idf/components/esp-tls /home/lord-daniel/esp/esp-idf/components/esp_adc /home/lord-daniel/esp/esp-idf/components/esp_app_format /home/lord-daniel/esp/esp-idf/components/esp_coex /home/lord-daniel/esp/esp-idf/components/esp_common /home/lord-daniel/esp/esp-idf/components/esp_eth /home/lord-daniel/esp/esp-idf/components/esp_event /home/lord-daniel/esp/esp-idf/components/esp_gdbstub /home/lord-daniel/esp/esp-idf/components/esp_hid /home/lord-daniel/esp/esp-idf/components/esp_http_client /home/lord-daniel/esp/esp-idf/components/esp_http_server /home/lord-daniel/esp/esp-idf/components/esp_https_ota /home/lord-daniel/esp/esp-idf/components/esp_https_server /home/lord-daniel/esp/esp-idf/components/esp_hw_support /home/lord-daniel/esp/esp-idf/components/esp_lcd /home/lord-daniel/esp/esp-idf/components/esp_local_ctrl /home/lord-daniel/esp/esp-idf/components/esp_mm /home/lord-daniel/esp/esp-idf/components/esp_netif /home/lord-daniel/esp/esp-idf/components/esp_netif_stack /home/lord-daniel/esp/esp-idf/components/esp_partition /home/lord-daniel/esp/esp-idf/components/esp_phy /home/lord-daniel/esp/esp-idf/components/esp_pm /home/lord-daniel/esp/esp-idf/components/esp_psram /home/lord-daniel/esp/esp-idf/components/esp_ringbuf /home/lord-daniel/esp/esp-idf/components/esp_rom /home/lord-daniel/esp/esp-idf/components/esp_system /home/lord-daniel/esp/esp-idf/components/esp_timer /home/lord-daniel/esp/esp-idf/components/esp_wifi /home/lord-daniel/esp/esp-idf/components/espcoredump /home/lord-daniel/esp/esp-idf/components/esptool_py /home/lord-daniel/esp/esp-idf/components/fatfs /home/lord-daniel/esp/esp-idf/components/freertos /home/lord-daniel/esp/esp-idf/components/hal /home/lord-daniel/esp/esp-idf/components/heap /home/lord-daniel/esp/esp-idf/components/http_parser /home/lord-daniel/esp/esp-idf/components/idf_test /home/lord-daniel/esp/esp-idf/components/ieee802154 /home/lord-daniel/esp/esp-idf/components/json /home/lord-daniel/esp/esp-idf/components/log /home/lord-daniel/esp/esp-idf/components/lwip /home/lord-daniel/Code/ESP_IDF/ashumitra_own/main /home/lord-daniel/esp/esp-idf/components/mbedtls /home/lord-daniel/esp/esp-idf/components/mqtt /home/lord-daniel/esp/esp-idf/components/newlib /home/lord-daniel/esp/esp-idf/components/nvs_flash /home/lord-daniel/esp/esp-idf/components/openthread /home/lord-daniel/esp/esp-idf/components/partition_table /home/lord-daniel/esp/esp-idf/components/perfmon /home/lord-daniel/esp/esp-idf/components/protobuf-c /home/lord-daniel/esp/esp-idf/components/protocomm /home/lord-daniel/esp/esp-idf/components/pthread /home/lord-daniel/esp/esp-idf/components/sdmmc /home/lord-daniel/esp/esp-idf/components/soc /home/lord-daniel/esp/esp-idf/components/spi_flash /home/lord-daniel/esp/esp-idf/components/spiffs /home/lord-daniel/esp/esp-idf/components/tcp_transport /home/lord-daniel/esp/esp-idf/components/ulp /home/lord-daniel/esp/esp-idf/components/unity /home/lord-daniel/esp/esp-idf/components/usb /home/lord-daniel/esp/esp-idf/components/vfs /home/lord-daniel/esp/esp-idf/components/wear_levelling /home/lord-daniel/esp/esp-idf/components/wifi_provisioning /home/lord-daniel/esp/esp-idf/components/wpa_supplicant /home/lord-daniel/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build

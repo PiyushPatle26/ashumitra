@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASHUMITRA Pill Dispenser</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 0;
+        }
+        .mode-selector {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .mode-selector label {
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        button:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+        }
+        .filled-doses {
+            margin-top: 20px;
+        }
+        .filled-dose {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .remove-dose {
+            width: auto;
+            padding: 5px 10px;
+            background-color: #e74c3c;
+            margin-left: 10px;
+        }
+        .remove-dose:hover {
+            background-color: #c0392b;
+        }
+        .notification {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            text-align: center;
+            display: none;
+        }
+        .notification.success {
+            display: block;
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .notification.error {
+            display: block;
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        #dateTime {
+            text-align: center;
+            color: #7f8c8d;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ASHUMITRA</h1>
+        <p>Smart Pill Dispenser</p>
+        <div id="dateTime">Loading date and time...</div>
+
+        <div class="mode-selector">
+            <select id="mode-selector">
+                <option value="fill">Filling Mode</option>
+                <option value="dispense">Dispense Mode</option>
+            </select>
+        </div>
+
+        <div id="notification" class="notification"></div>
+
+        <div class="controls">
+            <h3 id="controls-title">Fill Mode</h3>
+            
+            <label for="day-select">Select Day:</label>
+            <select id="day-select">
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday (Dose 1 only)</option>
+                <option value="sunday">Sunday (Dose 1 only)</option>
+            </select>
+
+            <label for="dose-select">Select Dose:</label>
+            <select id="dose-select">
+                <option value="1">Dose 1</option>
+                <option value="2">Dose 2</option>
+            </select>
+
+            <button id="action-button" class="fill">Add Dose</button>
+
+            <div class="filled-doses">
+                <h4>Scheduled Doses:</h4>
+                <div id="filled-doses-list">
+                    <!-- Filled doses will be listed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

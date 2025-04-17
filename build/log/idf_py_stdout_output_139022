@@ -1,0 +1,16 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader/esp-idf/esptool_py && /home/lord-daniel/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/lord-daniel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/bootloader/bootloader.bin
+Bootloader binary size 0x68c0 bytes. 0x740 bytes (6%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/servo.c.obj
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj
+[4/8] Linking C static library esp-idf/main/libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable ashumitra_own.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+Generated /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/ashumitra_own.bin
+[8/8] cd /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/esp-idf/esptool_py && /home/lord-daniel/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/lord-daniel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/partition_table/partition-table.bin /home/lord-daniel/Code/ESP_IDF/ashumitra_own/build/ashumitra_own.bin
+ashumitra_own.bin binary size 0xcee40 bytes. Smallest app partition is 0x100000 bytes. 0x311c0 bytes (19%) free.
