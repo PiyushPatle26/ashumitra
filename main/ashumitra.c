@@ -33,6 +33,7 @@
 #define SERVO_MIN_PULSEWIDTH 500
 #define SERVO_MAX_PULSEWIDTH 2500
 
+// hii
 // Number of slots for servo positions (Monday Dose 1/2 ... Saturday Dose 1)
 #define NUM_SLOTS 11
 
